@@ -105,8 +105,7 @@ requires_python = ">=2"
 summary = "Provider of IANA time zone data"
 
 [metadata]
-lock_version = "4.2"
-groups = ["default", "dev"]
+lock_version = "4.1"
 content_hash = "sha256:59f353c4be1017e9c6dbe80e99525370a840d21b415e3afebdcd87c2ffccb775"
 
 [metadata.files]
