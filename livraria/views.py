@@ -22,7 +22,7 @@ class AutorViewSet(ModelViewSet):
 class LivroViewSet(ModelViewSet):
     queryset = Livro.objects.all()
 
-        def get_serializer_class(self):
+    def get_serializer_class(self):
         if self.action == "list":
             return LivroListSerializer
         elif self.action == "retrieve":
